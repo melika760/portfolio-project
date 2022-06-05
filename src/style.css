@@ -9,6 +9,9 @@
     h2{
         font-size:44px !important
     }
+    p{
+        line-height: 1.5rem !important;
+    }
 }
 
 h1,h2,h3,h4,h5,h6{
@@ -59,7 +62,7 @@ p{
     
 }
 .my-story p{
-    line-height: 1.5rem;
+    line-height: 2.5rem;
 }
 .profile{
     width: 500px;
