@@ -1,27 +1,28 @@
 :root{
     --primary-color:#F7F5F2;
     --secondary-color:#F56D91;
+    --third-color:#cec3b1;
     --default-font:"Poppins", sans-serif;
     --header-font:"Playfair Display", serif
 }
-body{
-    font-family: var(--default-font);
-}
+
 h1,h2,h3,h4,h5,h6{
     font-family: var(--header-font);
     
 }
 p{
-    font-weight: bold;
+    font-family: var(--default-font);
 
 }
 .bg-branding{
     background-color: var(--primary-color);
-    padding: 160px 20px;
+    padding: 90px 20px;
+   
     
 }
 .bg-branding p{
     font-size: 36px;
+    font-weight: bold;
 }
 .bg-branding h2{
     text-transform: capitalize;
@@ -48,4 +49,28 @@ p{
     border:1px solid var(--secondary-color);
     color: var(--secondary-color);
 }
+.my-story h2{
+    color: var(--secondary-color);
     
+}
+.my-story p{
+    line-height: 2.5rem;
+}
+.profile{
+    width: 500px;
+    border: 2px solid var(--primary-color);
+}
+.my-story .btn-cv{
+    color: var(--secondary-color);
+    line-height: 27px;
+    padding: 15px 30px;
+    background-color: beige;
+    margin-top: 20px;
+    border:1px solid var(--secondary-color);
+    border-radius: 4px;
+}
+.my-story .btn-cv:hover{
+    border:1px solid var(--secondary-color);
+    background-color: var(--secondary-color);
+    color: beige;
+}
