@@ -5,6 +5,11 @@
     --default-font:"Poppins", sans-serif;
     --header-font:"Playfair Display", serif
 }
+@media only screen and (max-width : 992px) {
+    h2{
+        font-size:44px !important
+    }
+}
 
 h1,h2,h3,h4,h5,h6{
     font-family: var(--header-font);
