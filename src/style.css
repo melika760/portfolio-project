@@ -73,7 +73,7 @@ p{
     line-height: 27px;
     padding: 15px 30px;
     background-color: white;
-    margin-top: 20px;
+    margin-top: 5px;
     border:1px solid var(--secondary-color);
     border-radius: 4px;
 }
@@ -81,4 +81,27 @@ p{
     border:1px solid var(--secondary-color);
     background-color: var(--secondary-color);
     color: white;
+}
+[data-component="slideshow"] .slide {
+    display: none;
+  }
+
+  [data-component="slideshow"] .slide.active {
+    display: block;
+  }
+.slide .items{
+    width: 1000px;
+   
+    border: 2px solid var(--primary-color);
+}
+
+.slide .text{
+    margin-top: 20px;
+
+}
+.slide .text p{
+font-size: 14px;
+}
+.work-inquery{
+    background-color: var(--primary-color);
 }
