@@ -14,6 +14,7 @@
 <script src="https://kit.fontawesome.com/67810b8948.js" crossorigin="anonymous"></script>
 <!-- JavaScript Bundle with Popper -->
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+
 </head>
 <body>
   <!----------------------------------------------- navbar----------------------------------------------------- -->
@@ -51,7 +52,7 @@
    <p>👋Hi,I'm</p>
    <h2>Melika Tafazoli</h2>
    <h1>Front-end developer based in iran</h1>
-   <a href="#"class="btn btn-branding shadow p-3 mb-5">Let's Discuss</a>
+   <a href="#"class="btn btn-branding shadow p-3 mb-5">Contact me</a>
 </div>
 <!------------------------------------------------------------------------- content--------------------------------------------- -->
 <div class="my-story pt-4 container">
@@ -124,32 +125,29 @@
         <a href="#" class="btn btn-cv shadow p-3  mb-3">Go to site</a></div>
       </div>
     </div>
-    
 </div>
-<footer class="work-inquery">
+<div class="work-inquery">
+  <div class="row">
+    <div class="col-sm-8"> <h2>Work Inquiry</h2>
+      <p>Let's Work together and I'll help you by all my best</p></div>
+      <div class="col-sm-4"><a  class="btn btn-talk shadow  mb-3 " id="btn-contact">Let's Talk</a></div>
+  </div>
+</div>
 
-</footer>
+
+
 <!-- space -->
 <br><br><br>
 
-
-
-
-
-
-
-
-
-
 <script>
-    var slideshows = document.querySelectorAll('[data-component="slideshow"]');
+  var slideshows = document.querySelectorAll('[data-component="slideshow"]');
   
   slideshows.forEach(initSlideShow);
-
+  
   function initSlideShow(slideshow) {
-
+  
     var slides = document.querySelectorAll(`#${slideshow.id} [role="list"] .slide`);
-
+  
     var index = 0, time = 5000;
     slides[index].classList.add('active');  
     
@@ -160,9 +158,42 @@
       if (index === slides.length) index = 0; 
       
       slides[index].classList.add('active');
-
+  
     }, time);
   }
+  
+  let btn = document.querySelector("#btn-contact");
+  let work = document.querySelector(".work-inquery")
+  function Talk(){
+  work.innerHTML = `<form class="container ">
+  <div class="row pb-3">
+    <div class="form-group col-md-6">
+      <input type="text" class="form-control"  placeholder="Enter your name">
+    </div>
+    <div class="form-group col-md-6">
+      <input type="email" class="form-control"  placeholder="Enter your Email">
+    </div>
+</div>
+  <div class="form-group pb-3 ">
+    <input type="email" class="form-control text-center"  placeholder="choose a time frame">
+  </div>
+  <div class="form-group  pb-3">
+    <input type="email" class="form-control text-center"  placeholder="choose your budget">
+  </div>
+  <div class="form-group  pb-3 ">
+    
+    <input type="email" class="form-control help"  placeholder="How can I help you?">
+  </div>
+  <div class="text-center">
+  <button class="btn btn-cv shadow p-3  mb-3" type="submit">Let's work together</button></div></div>
+</form>`
+  }
+  btn.addEventListener("click",Talk)
 </script>
+
+
+
+
+
 </body>
 </html>

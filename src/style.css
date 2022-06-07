@@ -18,6 +18,7 @@ h1,h2,h3,h4,h5,h6{
     font-family: var(--header-font);
     
 }
+
 p{
     font-family: var(--default-font);
 
@@ -34,7 +35,7 @@ p{
 }
 .bg-branding h2{
     text-transform: capitalize;
-    font-size: 62px;
+    font-size: 50px;
     line-height: 60px;
    
 }
@@ -104,4 +105,19 @@ font-size: 14px;
 }
 .work-inquery{
     background-color: var(--primary-color);
+    padding: 30px;
+    border-radius: 4px;
+}
+.work-inquery .btn-talk{
+    background-color: var(--secondary-color);
+    line-height: 27px;
+    padding: 15px 30px;
+    color: white;
+    margin-top: 20px;
+    border:1px solid var(--secondary-color);
+    border-radius: 4px;
+   
+}
+form .help{
+   height: 130px;
 }
