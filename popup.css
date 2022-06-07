@@ -1,0 +1,18 @@
+#sub{
+    color: #F56D91;
+    line-height: 27px;
+    padding: 15px 30px;
+    background-color: white;
+    margin-top: 5px;
+    border:1px solid #F56D91;
+    border-radius: 4px;
+}
+#sub:hover{
+    border:1px solid #F56D91;
+    background-color:#F56D91 ;
+    color: white;
+}
+form .help{
+    height: 130px;
+ }
+ 

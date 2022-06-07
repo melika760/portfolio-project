@@ -130,7 +130,10 @@
   <div class="row">
     <div class="col-sm-8"> <h2>Work Inquiry</h2>
       <p>Let's Work together and I'll help you by all my best</p></div>
-      <div class="col-sm-4"><a  class="btn btn-talk shadow  mb-3 " id="btn-contact">Let's Talk</a></div>
+      <div class="col-sm-4"><a class="btn btn-talk shadow  mb-3 " id="btn-contact" href="/popup.html" target="popup" 
+        onclick="window.open('/popup.html','popup','width=600,height=600');   
+        return false;"> Open Link in Popup
+    </a></div>
   </div>
 </div>
 
@@ -161,34 +164,6 @@
   
     }, time);
   }
-  
-  let btn = document.querySelector("#btn-contact");
-  let work = document.querySelector(".work-inquery")
-  function Talk(){
-  work.innerHTML = `<form class="container ">
-  <div class="row pb-3">
-    <div class="form-group col-md-6">
-      <input type="text" class="form-control"  placeholder="Enter your name">
-    </div>
-    <div class="form-group col-md-6">
-      <input type="email" class="form-control"  placeholder="Enter your Email">
-    </div>
-</div>
-  <div class="form-group pb-3 ">
-    <input type="email" class="form-control text-center"  placeholder="choose a time frame">
-  </div>
-  <div class="form-group  pb-3">
-    <input type="email" class="form-control text-center"  placeholder="choose your budget">
-  </div>
-  <div class="form-group  pb-3 ">
-    
-    <input type="email" class="form-control help"  placeholder="How can I help you?">
-  </div>
-  <div class="text-center">
-  <button class="btn btn-cv shadow p-3  mb-3" type="submit">Let's work together</button></div></div>
-</form>`
-  }
-  btn.addEventListener("click",Talk)
 </script>
 
 
