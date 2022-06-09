@@ -118,6 +118,14 @@ font-size: 14px;
     border-radius: 4px;
    
 }
+footer a{
+    color: var(--secondary-color);
+    text-decoration: none;
+}
+footer a:hover{
+    color: var(--secondary-color);
+    
+}
 .socialmedia i{ 
     border-radius:50%;
     color:white;
