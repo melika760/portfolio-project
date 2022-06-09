@@ -118,6 +118,25 @@ font-size: 14px;
     border-radius: 4px;
    
 }
-form .help{
-   height: 130px;
+.socialmedia i{ 
+    border-radius:50%;
+    color:white;
+    padding:5px;
+   
+   
+    
 }
+ .socialmedia li{
+    display: inline-block;
+}
+.socialmedia li .t-color{
+    background-color:#0b6c9c
+}
+ .socialmedia li .p-color{
+    background-color: #da535b;
+}
+ .socialmedia li .ti-color{
+    background-color:black;
+}
+
+
