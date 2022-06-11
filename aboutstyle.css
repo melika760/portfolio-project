@@ -23,17 +23,25 @@ p{
 img{
     border-radius:50%;
     width: 400px;
+  
+}
+
+.chng-font{
+    font-family: var(--default-font);
 }
 .container h1{
-    font-size: 24px;
+    font-size: 36px;
     opacity: 50%;
     color: var(--secondary-color);
 }
 .container h2{
     text-transform: capitalize;
-    font-size: 45px;
+    font-size: 55px;
     color: var(--secondary-color);
     
+}
+.container p{
+    font-size: 20px;
 }
 
 .container .btn-work{
@@ -47,4 +55,11 @@ img{
 .container .btn-work:hover{
     border:1px solid var(--secondary-color);
     color: var(--secondary-color);
+}
+.border-color{
+border: 3px solid var(--secondary-color) ;
+}
+.fa-color{
+    color: var(--secondary-color);
+    opacity: 50%;
 }
