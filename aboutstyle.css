@@ -41,7 +41,8 @@ img{
     
 }
 .container p{
-    font-size: 20px;
+    font-size: 16px;
+    
 }
 
 .container .btn-work{
@@ -57,7 +58,30 @@ img{
     color: var(--secondary-color);
 }
 .border-color{
-border: 3px solid var(--secondary-color) ;
+border: 1px solid var(--secondary-color) ;
+}
+.border-color h3{
+    font-size: 22px;
+    padding: 10px;
+    opacity: 70%;
+}
+.border-color ul li::before{
+    content: "\2022";
+    color: var(--secondary-color);
+    display: inline-block;
+    font-weight:bolder;
+    width: 1em;
+    margin-left: -1px;
+
+
+}
+.border-color ul li{
+    padding: 5px;
+}
+.border-color ul{
+    margin: 10px;
+    padding: 5px;
+    list-style:none;
 }
 .fa-color{
     color: var(--secondary-color);
