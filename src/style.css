@@ -126,9 +126,11 @@ font-size: 14px;
     border:1px solid var(--secondary-color);
     border-radius: 4px;
 }
-.chng-font{
+.works .chng-font{
     font-family: var(--default-font);
     font-size: 36px;
+    color: rgb(163, 151, 151);;
+  
 }
 footer a{
     color: var(--secondary-color);

@@ -15,9 +15,7 @@
     .profile{
         margin-left: 0px !important;
     }
-    .col-4{
-        width: 100% !important;
-    }
+    
 }
 h1,h2{
     font-family: var(--header-font);
