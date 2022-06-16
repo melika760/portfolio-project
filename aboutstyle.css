@@ -12,6 +12,9 @@
     p{
         line-height: 1.5rem !important;
     }
+    .profile{
+        margin-left: 0px !important;
+    }
 }
 h1,h2{
     font-family: var(--header-font);
