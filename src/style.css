@@ -12,6 +12,9 @@
     p{
         line-height: 1.5rem !important;
     }
+    .profile2{
+        margin-left: 0px !important;
+    }
 }
 
 h1,h2,h3,h4,h5,h6{
@@ -161,4 +164,69 @@ footer a:hover{
     background-color:black;
 }
 
+/* aboutme styles */
+.container h1{
+    font-size: 24px;
+    opacity: 50%;
+    color: var(--secondary-color);
+}
+.container h2{
+    text-transform: capitalize;
+    font-size: 50px;
+    color: var(--secondary-color);
+    
+}
+.profile2{
+    border-radius:40px;
+    width: 400px;
+    margin-left: 72px;
+  
+}
+.container p{
+    font-size: 16px;
+    
+}
 
+.container .btn-work{
+    color:white;
+    line-height: 27px;
+    padding: 15px 30px;
+    background-color:  var(--secondary-color);
+    border:1px solid var(--secondary-color);
+    border-radius: 4px;
+}
+.container .btn-work:hover{
+    border:1px solid var(--secondary-color);
+    color: var(--secondary-color);
+}
+.border-color{
+border: 1px solid var(--secondary-color) ;
+}
+.border-color h3{
+    font-size: 22px;
+    padding: 10px;
+    opacity: 70%;
+    margin: 5px;
+}
+.border-color ul li::before{
+    content: "\2022";
+    color: var(--secondary-color);
+    display: inline-block;
+    font-weight:bolder;
+    width: 1em;
+    margin-left: -1px;
+
+
+}
+.border-color ul li{
+    padding: 5px;
+}
+.border-color ul{
+    margin: 10px;
+    padding: 5px;
+    list-style:none;
+}
+.fa-color{
+    color: var(--secondary-color);
+    opacity: 50%;
+}
