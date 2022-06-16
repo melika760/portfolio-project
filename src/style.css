@@ -257,3 +257,6 @@ margin-top: 25px;
 .work-inquery-header{
     color: var(--secondary-color);
 }
+.work-header-color{
+opacity: 50%;
+}
