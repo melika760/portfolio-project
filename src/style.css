@@ -165,12 +165,12 @@ footer a:hover{
 }
 
 /* aboutme styles */
-.container h1{
+ .about-content h1{
     font-size: 24px;
     opacity: 50%;
     color: var(--secondary-color);
 }
-.container h2{
+ .about-content h2{
     text-transform: capitalize;
     font-size: 50px;
     color: var(--secondary-color);
@@ -182,12 +182,12 @@ footer a:hover{
     margin-left: 72px;
   
 }
-.container p{
+ .about-content p{
     font-size: 16px;
     
 }
 
-.container .btn-work{
+ .about-content .btn-work{
     color:white;
     line-height: 27px;
     padding: 15px 30px;
@@ -195,7 +195,7 @@ footer a:hover{
     border:1px solid var(--secondary-color);
     border-radius: 4px;
 }
-.container .btn-work:hover{
+ .about-content .btn-work:hover{
     border:1px solid var(--secondary-color);
     color: var(--secondary-color);
 }
@@ -235,3 +235,21 @@ border: 1px solid var(--secondary-color) ;
     line-height: 2rem;
     margin-bottom: 20px;
 }
+/* work */
+.work-header{
+    font-size: 30px;
+    color: var(--secondary-color);
+}
+.work-content .btn-work
+    {
+        color:white;
+        line-height: 27px;
+        padding: 15px 30px;
+        background-color:  var(--secondary-color);
+        border:1px solid var(--secondary-color);
+        border-radius: 4px;
+    }
+.work-content .btn-work:hover{
+        border:1px solid var(--secondary-color);
+        color: var(--secondary-color);
+    }
