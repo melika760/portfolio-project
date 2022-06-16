@@ -241,7 +241,7 @@ border: 1px solid var(--secondary-color) ;
     color: var(--secondary-color);
 margin-top: 25px;
 }
-.work-content .btn-work
+.work-content .btn-work 
     {
         color:white;
         line-height: 27px;
@@ -250,7 +250,7 @@ margin-top: 25px;
         border:1px solid var(--secondary-color);
         border-radius: 4px;
     }
-.work-content .btn-work:hover{
+.work-content .btn-work:hover {
         border:1px solid var(--secondary-color);
         color: var(--secondary-color);
     }
