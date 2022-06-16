@@ -20,9 +20,10 @@ p{
     font-family: var(--default-font);
     
 }
-img{
-    border-radius:50%;
+.profile{
+    border-radius:40px;
     width: 400px;
+    margin-left: 72px;
   
 }
 
