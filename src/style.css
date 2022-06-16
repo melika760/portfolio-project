@@ -239,6 +239,7 @@ border: 1px solid var(--secondary-color) ;
 .work-header{
     font-size: 30px;
     color: var(--secondary-color);
+margin-top: 25px;
 }
 .work-content .btn-work
     {
@@ -252,4 +253,8 @@ border: 1px solid var(--secondary-color) ;
 .work-content .btn-work:hover{
         border:1px solid var(--secondary-color);
         color: var(--secondary-color);
+    }
+   
+    .work-content p{
+        opacity: 50%;
     }
