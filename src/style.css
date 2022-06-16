@@ -230,11 +230,7 @@ border: 1px solid var(--secondary-color) ;
     color: var(--secondary-color);
     opacity: 50%;
 }
-.work-inquery h2{
-    font-size: 40px;
-    line-height: 2rem;
-    margin-bottom: 20px;
-}
+
 /* work */
 .work-header{
     font-size: 30px;
@@ -258,3 +254,6 @@ margin-top: 25px;
     .work-content p{
         opacity: 50%;
     }
+.work-inquery-header{
+    color: var(--secondary-color);
+}
