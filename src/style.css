@@ -26,6 +26,9 @@ p{
     font-family: var(--default-font);
 
 }
+.nav-item{
+    padding: 5px;
+}
 .bg-branding{
     background-color: var(--primary-color);
     padding: 90px 20px;
