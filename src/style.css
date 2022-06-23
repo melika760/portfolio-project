@@ -29,6 +29,9 @@ p{
 .nav-item{
     padding: 5px;
 }
+.active{
+    color: var(--secondary-color)!important;
+}
 .bg-branding{
     background-color: var(--primary-color);
     padding: 90px 20px;
