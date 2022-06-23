@@ -115,6 +115,7 @@ font-size: 14px;
     background-color: var(--primary-color);
     padding: 30px;
     border-radius: 4px;
+    margin-top: 90px;
 }
 .work-inquery .btn-talk{
     background-color: var(--secondary-color);
