@@ -93,9 +93,16 @@ p{
 .progress .bg-color{
     background-color: var(--secondary-color);
 }
+.buttons{
+    list-style: none;
+}
+.buttons li{
+    display: inline;
+}
 .Show-about{
     border: none;
     background-color: white;
+    
 }
 .color-btn{
     color: var(--secondary-color);
