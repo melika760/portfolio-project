@@ -90,9 +90,11 @@ p{
     background-color: var(--secondary-color);
     color: white;
 }
+
 .progress .bg-color{
     background-color: var(--secondary-color);
 }
+
 .buttons{
     list-style: none;
 }
