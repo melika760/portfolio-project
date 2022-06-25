@@ -98,12 +98,12 @@ p{
 }
 .buttons li{
     display: inline;
-    color: black;
+    
 }
 .Show-about{
     border: none;
     background-color: white;
-    
+    color: black;
 }
 .color-btn{
     color: var(--secondary-color);
