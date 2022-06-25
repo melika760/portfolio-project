@@ -50,10 +50,13 @@
       </nav>
       <!------------------------------------------------------------------ header--------------------------------------- -->
     <div class=" bg-branding text-center ">  
-   <h3>👋Hi,I'm</h3>
-   <h2>Melika Tafazoli</h2>
+   <p>👋Hello world!</p>
+   <h2>I'm Melika</h2>
    <h1>Front-end developer based in iran</h1>
-   <a href="/popup.html"class="btn btn-branding shadow p-3 mb-5"title="Contact Melika">Contact me</a>
+   <p class="text-justify mt-2">
+    I’m currently seeking new opportunities in front-end development. I’m open to work remotely and have flexible hours. I’m highly skilled in JavaScript and React
+</p>
+   <a href="/myworks.html"class="btn btn-branding shadow p-3 mb-5"title="Contact Melika">Check out My Works</a>
 </div>
 <!------------------------------------------------------------------------- content--------------------------------------------- -->
 <div class="my-story pt-4 container">
@@ -70,41 +73,67 @@
         
               </div>
     </div>
+    <!-- -------------------------------------progress-bar--------------------------------------------------------------------------------------- -->
     <br><br>
     <div class="row text-center">
-        <div class="col">
+        <div class="col-sm mb-5">
             <h2 class="text-center">My Skills:</h2>
             <p>HTML:</p>
              <div class="progress">
-            <div class="progress-bar bg-warning" role="progressbar" style="width: 100%" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"></div>
+            <div class="progress-bar bg-color" role="progressbar" style="width: 100%" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"></div>
               </div>
               <br>
               <p>CSS:</p>
              <div class="progress">
-            <div class="progress-bar bg-warning" role="progressbar" style="width: 100%" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"></div>
+            <div class="progress-bar bg-color" role="progressbar" style="width: 100%" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"></div>
               </div>
               <br>
               <p>BootStrap:</p>
               <div class="progress">
-             <div class="progress-bar bg-warning" role="progressbar" style="width: 100%" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"></div>
+             <div class="progress-bar bg-color" role="progressbar" style="width: 100%" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"></div>
                </div>
                <br>
                <p>JS:</p>
                <div class="progress">
-              <div class="progress-bar bg-warning" role="progressbar" style="width: 75%" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
+              <div class="progress-bar bg-color" role="progressbar" style="width: 75%" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
                 </div>
                 <br>
                 <p>JQUERY:</p>
                <div class="progress">
-              <div class="progress-bar bg-warning" role="progressbar" style="width: 50%" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>
+              <div class="progress-bar bg-color" role="progressbar" style="width: 50%" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>
                 </div>
     
         </div>
-        <div class="col d-none d-lg-block">
+          <!-- ------------------------------------------------------emtehani------------------------------------------------------------- -->
+
+<div class="col-sm ">
+  <h2>About me:</h2>
+    <button type="button"id="personal-btn"class="Show-about">
+    Personal Info</button>
+      <button type="button"id="Exprience-btn"class="Show-about color-btn">
+    Experience & Awards</button>
+      <button type="button"id="Education-btn"class="Show-about">
+    Education</button>
+    <div class="content ">
+      <ul class="list-group">
+        <h3>Experience & Awards</h3>
+      <li>Passing web development courses at SheCodes.io</li>
+      <li>Passing web development courses at leitec ( Sharif University)</li>
+      <li>Achieving the fourth place in the country in the field of psychology in Kharazmi Festival</li>
+      <li>Win second place in the field of website design in the Makeathon competition at Sharif
+      university</li>
+      <li>Participating in business workshops at Sharif University</li>
+      <li>Passing Deutsch courses up to B2 level at the Goethe-Institute</li>
+      </ul> </div>
+  
+</div>
+        <!-- <div class="col d-none d-lg-block">
             <img src="/images/c04361f45b212b7992b0dbd92615ef85.jpg" alt="code"class="profile rounded">
-        </div>
+        </div> -->
     </div>
   <br>
+
+
   <!-- -------------------------------------------------crousel---------------------------------------------------------- -->
     <div class="works text-center pt-5">
     <h2>My Latest Work:</h2>
@@ -159,6 +188,49 @@
 <br><br><br>
 
 <script>
+  let content = document.querySelector(".content")
+let personalbtn = document.querySelector("#personal-btn")
+let expbtn =document.querySelector("#Exprience-btn")
+let edubtn = document.querySelector("#Education-btn")
+personalbtn.addEventListener("click",personalshow)
+expbtn.addEventListener("click",exprienceshow)
+edubtn.addEventListener("click",edushow)
+function personalshow(){
+  content.innerHTML =`<ul class="list-group">
+  <h3 >Personal Info</h3>
+<li><i class="fa fa-user fa-color "></i> Melika Tafazoli</li>
+<li><i class="fa fa-phone fa-color"></i> +98 9128391276</li>
+<li><i class="fa fa-envelope fa-color"></i> melikaaatafazoli@gmail.com</li>
+</ul>`
+personalbtn.classList.add("color-btn")
+expbtn.classList.remove("color-btn")
+edubtn.classList.remove("color-btn")
+}
+function exprienceshow(){
+  content.innerHTML = `  <ul class="list-group">
+      <h3>Experience & Awards</h3>
+    <li>Passing web development courses at SheCodes.io</li>
+    <li>Passing web development courses at leitec ( Sharif University)</li>
+    <li>Achieving the fourth place in the country in the field of psychology in Kharazmi Festival</li>
+    <li>Win second place in the field of website design in the Makeathon competition at Sharif
+    university</li>
+    <li>Participating in business workshops at Sharif University</li>
+    <li>Passing Deutsch courses up to B2 level at the Goethe-Institute</li>
+    </ul>` 
+    expbtn.classList.add("color-btn")
+    personalbtn.classList.remove("color-btn")
+    edubtn.classList.remove("color-btn")
+}
+function edushow(){
+  content.innerHTML =`<ul class="list-group">
+  <h3>Education</h3>
+<li>Electrical engineer Bachelor Shahid Beheshti University-Tehran, Iran(2017-2021)</li>
+<li>High school diploma at Salam High school(2015)</li>
+</ul>`
+personalbtn.classList.remove("color-btn")
+expbtn.classList.remove("color-btn")
+edubtn.classList.add("color-btn")
+}
   let slideshows = document.querySelectorAll('[data-component="slideshow"]');
   
   slideshows.forEach(initSlideShow);
