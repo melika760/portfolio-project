@@ -136,6 +136,9 @@ p{
     padding: 5px;
     list-style:none;
 }
+.works{
+    margin-top: 45px;
+}
 [data-component="slideshow"] .slide {
     display: none;
   }
